@@ -27,3 +27,19 @@ Open http://localhost:3000.
 - Contact: skrinfoltd@gmail.com
 
 The public-sector wording intentionally describes prior delivery as leadership/team experience rather than claiming SKR INFO LIMITED delivered work before incorporation.
+
+## Pages
+
+- `/` – home: services, experience (anonymised case studies), buying from us, credentials, about, contact
+- `/accessibility` – accessibility statement (review yearly)
+- `/privacy` – privacy notice (review if you add analytics, cookies or forms)
+
+## To add when available
+
+Add these to the `credentials` list in `app/page.tsx` once you have them:
+
+- Cyber Essentials (or Cyber Essentials Plus) certificate
+- Security clearance level (BPSS / SC), if held
+- Insurance cover (professional indemnity, public and employer's liability)
+- G-Cloud / DOS framework listing, if the company is accepted onto one
+- ICO registration number, if registered
