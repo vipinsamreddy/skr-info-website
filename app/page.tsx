@@ -4,9 +4,9 @@ const services = [
   ["Digital Service Delivery", "End-to-end delivery of secure, accessible digital services from discovery through build, test and live support."],
   ["C# / .NET & APIs", "Modern .NET applications, REST APIs, integration services and legacy modernisation designed for reliability and maintainability."],
   ["React & TypeScript", "Fast, accessible web interfaces using React, Next.js and TypeScript, built around user needs and the GOV.UK Design System."],
-  ["Azure & AWS Cloud", "Cloud-native and serverless architecture, infrastructure as code (Terraform, Bicep), CI/CD, observability and secrets management."],
+  ["Azure Cloud & DevOps", "Azure-first cloud delivery: App Services, Functions, Service Bus, Key Vault, Azure DevOps pipelines and infrastructure as code. AWS experience available where your platform needs it."],
   ["Systems Integration", "APIs, messaging, XML/XSLT data flows and platform integrations that connect existing systems and reduce manual processes."],
-  ["AI & Automation", "Practical AI-enabled workflows and automation focused on measurable outcomes, governance and safe implementation."]
+  ["AI & Automation", "Applying AI where it adds value, built on sound engineering, data and governance, with a focus on measurable outcomes and safe implementation."]
 ];
 
 const caseStudies = [
@@ -84,7 +84,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="container heroGrid">
           <div>
-            <p className="eyebrow">UK DIGITAL & SOFTWARE ENGINEERING CONSULTANCY</p>
+            <p className="eyebrow">UK DIGITAL DELIVERY & SOFTWARE ENGINEERING CONSULTANCY</p>
             <h1>Software engineering for better digital services.</h1>
             <p className="intro">SKR INFO LIMITED helps public-sector and private organisations design, build and modernise secure digital services — from .NET APIs and cloud platforms to modern web applications and AI-enabled solutions.</p>
             <div className="actions"><a className="btn primary" href="#contact">Discuss your project</a><a className="btn secondary" href="#experience">See our experience</a></div>
@@ -93,7 +93,7 @@ export default function Home() {
           <aside className="panel" aria-label="Core capabilities">
             <small>CORE CAPABILITIES</small>
             <div><b>.NET</b><strong>APIs & services</strong></div>
-            <div><b>Cloud</b><strong>Azure & AWS</strong></div>
+            <div><b>Cloud</b><strong>Azure-first</strong></div>
             <div><b>React</b><strong>Web applications</strong></div>
             <div><b>GDS</b><strong>Public-sector standards</strong></div>
           </aside>
@@ -103,7 +103,7 @@ export default function Home() {
       <section className="stats" aria-label="Key facts">
         <div className="container statGrid">
           <div><strong>12+</strong><span>years of commercial engineering</span></div>
-          <div><strong>6</strong><span>UK government digital services delivered</span></div>
+          <div><strong>5+</strong><span>UK government digital services delivered</span></div>
           <div><strong>33+</strong><span>microservices using one shared design system</span></div>
           <div><strong>WCAG 2.2</strong><span>accessibility standard we build to</span></div>
         </div>
@@ -134,6 +134,14 @@ export default function Home() {
         <div className="cards">{engagementModels.map(([title, text]) => <article className="card" key={title}><h3>{title}</h3><p>{text}</p></article>)}</div>
         <h3 className="subHead">Procurement routes</h3>
         <div className="routes">{buyingRoutes.map(([title, text], i) => <div className="route" key={title}><span aria-hidden="true">{i + 1}</span><div><h4>{title}</h4><p>{text}</p></div></div>)}</div>
+        <h3 className="subHead">Supplier details</h3>
+        <dl className="supplier">
+          <div><dt>Legal name</dt><dd>SKR INFO LIMITED</dd></div>
+          <div><dt>Registered</dt><dd>England &amp; Wales</dd></div>
+          <div><dt>Company number</dt><dd>17486839</dd></div>
+          <div><dt>PPON</dt><dd>PBXM-5638-WQHX</dd></div>
+          <div className="wide"><dt>Subcontracting</dt><dd>Work is led and delivered by SKR INFO. Where specialist associates are used, we remain accountable for delivery and quality.</dd></div>
+        </dl>
       </div></section>
 
       <section className="section alt" id="credentials"><div className="container split">

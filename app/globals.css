@@ -69,6 +69,13 @@ nav a:not(.navCta):hover{color:var(--blue)}
 .route h4{margin:0 0 4px;font-size:1.05rem}
 .route p{margin:0;color:var(--muted)}
 
+.supplier{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin:24px 0 0;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.supplier div{background:var(--pale);padding:16px 20px}
+.supplier .wide{grid-column:1/-1;background:#fff}
+.supplier dt{font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.supplier dd{margin:4px 0 0;font-weight:700}
+.supplier .wide dd{font-weight:500}
+
 .split{display:grid;grid-template-columns:1fr 1fr;gap:70px}
 .checks{display:grid;gap:12px}
 .check{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 17px;display:flex;gap:14px;align-items:center}
@@ -102,14 +109,14 @@ footer{margin-top:82px;background:#071727;color:#dce5ed;padding:56px 0 26px}
   .heroGrid,.split,.footerGrid,.caseGrid{grid-template-columns:1fr}
   .heroGrid{gap:36px}
   .footerGrid{gap:28px}
-  .cards,.statGrid{grid-template-columns:1fr 1fr}
+  .cards,.statGrid,.supplier{grid-template-columns:1fr 1fr}
   .contactBox{align-items:flex-start;flex-direction:column}
 }
 @media(max-width:580px){
   .container{width:calc(100% - 32px)}
   .hero{padding-top:68px}
   .hero h1{font-size:2.75rem}
-  .cards,.statGrid{grid-template-columns:1fr}
+  .cards,.statGrid,.supplier{grid-template-columns:1fr}
   .contactBox{padding:30px 24px}
   .white{white-space:normal;word-break:break-all}
 }
