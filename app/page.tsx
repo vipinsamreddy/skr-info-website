@@ -70,12 +70,12 @@ export default function Home() {
 
     <section className="contact" id="contact"><div className="container contactBox">
       <div><p className="eyebrow pale">START A CONVERSATION</p><h2>Have a digital project to deliver?</h2><p>Tell us what you are trying to achieve and we can discuss scope, delivery options and next steps.</p></div>
-      <a className="btn white" href="mailto:hello@skrinfo.co.uk">hello@skrinfo.co.uk</a>
+      <a className="btn white" href="mailto:skrinfoltd@gmail.com">skrinfoltd@gmail.com</a>
     </div></section>
 
     <footer><div className="container footerGrid">
       <div><div className="brand footerBrand"><span>SKR</span> INFO</div><p>Digital & Software Engineering Consultancy</p></div>
-      <div><strong>SKR INFO LIMITED</strong><p>Registered in England & Wales</p><p>Company number: [ADD COMPANY NUMBER]</p><p>PPON: [ADD PPON]</p></div>
+      <div><strong>SKR INFO LIMITED</strong><p>Registered in England & Wales</p><p>Company number: 17486839</p><p>PPON: PBXM-5638-WQHX</p></div>
     </div><div className="container copyright">© 2026 SKR INFO LIMITED. All rights reserved.</div></footer>
   </main>
 }

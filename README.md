@@ -20,11 +20,10 @@ Open http://localhost:3000.
 5. Click Deploy.
 6. Add your custom domain under Project > Settings > Domains.
 
-## Before public launch
+## Company details
 
-Replace:
-- `[ADD COMPANY NUMBER]`
-- `[ADD PPON]`
-- `hello@skrinfo.co.uk` if you choose a different domain/email.
+- Companies House number: 17486839
+- PPON: PBXM-5638-WQHX
+- Contact: skrinfoltd@gmail.com
 
 The public-sector wording intentionally describes prior delivery as leadership/team experience rather than claiming SKR INFO LIMITED delivered work before incorporation.
